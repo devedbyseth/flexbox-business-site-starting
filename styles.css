@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bodoni Moda", serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+h1{
+
+    font-family: "Bodoni Moda", serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding: 20px 80px;
+    text-align: center;
+    display: nline-block;
+}
+nav{
+
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+li a:hover{
+    background-color: rgba(211, 211, 211, 0.4);
+}
+main{
+    margin: 40px 0;
+    position: relative;
+    top: 180px;
+    z-index: -1;
+}
+
+section{
+    background-color: #f7f7f7;
+    padding-bottom: 40px;
+    
+}
+
+h2{
+    padding: 10px 40px;
+}
+
+article{
+    margin: 40px;
+    padding: 40px;
+    /* background-color: #cfcfcf; */
+    border: 1px solid;
+    /* height: 100vh;
+    overflow: scroll; */
+}
+article h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+article p{
+    margin: 20px 0;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #ffffff;
+    max-width: 880px;
+    font-size: 18px;
+    line-height: 1.8;
+
+}
+article h6{
+    padding: 0 40px;
+    font-size: 14px;
+}
+.html h2{
+    background-color: #fbe69f;
+}
+
+
+.css h2{
+    background-color: lightblue;
+}
